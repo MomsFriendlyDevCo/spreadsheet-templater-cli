@@ -1,0 +1,33 @@
+{
+  "name": "@momsfriendlydevco/spreadsheet-templater-cli",
+  "version": "1.0.0",
+  "description": "CLI for @momsfriendlydevco/spreadsheet-templater",
+  "main": "app.js",
+  "bin": {
+    "spreadsheet-templator": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomsFriendlyDevCo/spreadsheet-templater-cli.git"
+  },
+  "keywords": [
+    "spreadsheet",
+    "template",
+    "templaer",
+    "data",
+    "layout"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MomsFriendlyDevCo/spreadsheet-templater-cli/issues"
+  },
+  "homepage": "https://github.com/MomsFriendlyDevCo/spreadsheet-templater-cli#readme",
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "@momsfriendlydevco/spreadsheet-templater": "^1.1.8",
+    "commander": "^9.0.0",
+    "commander-extras": "^1.1.6",
+    "lodash": "^4.17.21"
+  }
+}
