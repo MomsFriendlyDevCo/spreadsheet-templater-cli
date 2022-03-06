@@ -6,6 +6,9 @@
   "bin": {
     "spreadsheet-templator": "./app.js"
   },
+  "scripts": {
+    "test": "make --directory=test test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MomsFriendlyDevCo/spreadsheet-templater-cli.git"
