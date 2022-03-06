@@ -1,6 +1,6 @@
 {
   "name": "@momsfriendlydevco/spreadsheet-templater-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for @momsfriendlydevco/spreadsheet-templater",
   "main": "app.js",
   "bin": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/MomsFriendlyDevCo/spreadsheet-templater-cli#readme",
   "dependencies": {
     "@faker-js/faker": "^6.0.0-alpha.7",
-    "@momsfriendlydevco/spreadsheet-templater": "^1.1.8",
+    "@momsfriendlydevco/spreadsheet-templater": "^1.1.10",
     "commander": "^9.0.0",
     "commander-extras": "^1.1.6",
     "lodash": "^4.17.21"
