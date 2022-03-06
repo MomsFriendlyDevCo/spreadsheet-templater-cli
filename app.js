@@ -16,13 +16,13 @@ var program = commander
 		// Parse --data values {{{
 		var [key, val] = v.split(/\s*=\s*/, 2);
 		if (key && val === undefined) { // Assume boolean
-			t[key] = true;
+			_.set(t, key, true);
 		} else if (['true', 'false'].includes(val)) { // Assume boolean
-			t[key] = val == 'true';
+			_.set(t, key, val == 'true');
 		} else if (isFinite(val)) { // Assume numeric
-			t[key] = parseFloat(val);
+			_.set(t, key, parseFloat(val));
 		} else { // Assume string
-			t[key] = val;
+			_.set(t, key, val);
 		}
 		return t;
 		// }}}
